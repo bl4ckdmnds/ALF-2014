@@ -53,5 +53,4 @@
  
  //signe de $$
  pct
--  = final:[$][$] { return final }
-+  = final:[$][$]"\n" { return final }
+ = final:[$][$]"\n" { return final }
