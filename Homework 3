@@ -2,7 +2,6 @@
   * Ben Salah Slim - Groupe 1231 F - operations  +,-,*,/,^
  
  start
--  = firstAction
 +  = (firstAction)*
  
  //separation du $$ de notre expression 
@@ -53,4 +52,4 @@
  
  //signe de $$
  pct
- = final:[$][$]"\n" { return final }
++  = final:[$][$]"\n" { return final }
